@@ -17,25 +17,29 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <nav class="nav">
+      <nav class="nav container">
         <a href="" class="logo" rel=""
           >Web <span class="logo-web">Studio</span>
         </a>
         <ul class="list-nav list">
-          <li><a href="" class="link current" rel="">Студия</a></li>
-          <li><a href="./portfolio.html" class="link" rel="">Портфолио</a></li>
-          <li><a href="" class="link" rel="">Контакты</a></li>
+          <li class="item">
+            <a href="" class="link current" rel="">Студия</a>
+          </li>
+          <li class="item">
+            <a href="./portfolio.html" class="link" rel="">Портфолио</a>
+          </li>
+          <li class="item"><a href="" class="link" rel="">Контакты</a></li>
         </ul>
 
         <ul class="auth-nav list">
-          <li>
+          <li class="item">
             <a href="/" class="link" rel="">
               <img src="./images/почта.svg" alt="Почта" />
               info@devstudio.com
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a href="tel:+380951138598" class="telefon">
               <img src="./images/telefon.svg" alt="" />
               +38 095 113 85 98
@@ -48,9 +52,11 @@
     <!-- Герой -->
     <main>
       <section class="main">
-        <img src="./images/Heroy.jpg" alt="фото" width="1600" />
-        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-        <a href="" class="buton" rel="">Заказать услугу </a>
+        <div class="container">
+          <img src="./images/Heroy.jpg" alt="фото" width="1200" />
+          <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+          <a href="" class="buton" rel="">Заказать услугу </a>
+        </div>
       </section>
 
       <!--Правила-->
@@ -106,109 +112,115 @@
       </section>
       <!--Чем мы занимаемся-->
       <section class="section applications">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <h3 class="works">Десктопные приложения</h3>
-            <img src="./images/десктопные.jpg" alt="" width="380" />
-          </li>
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li>
+              <h3 class="works">Десктопные приложения</h3>
+              <img src="./images/десктопные.jpg" alt="" width="380" />
+            </li>
 
-          <li>
-            <h3 class="works">Мобильные приложения</h3>
-            <img
-              src="./images/мобильные.jpg"
-              alt="Мобильные приложения"
-              width="380"
-            />
-          </li>
+            <li>
+              <h3 class="works">Мобильные приложения</h3>
+              <img
+                src="./images/мобильные.jpg"
+                alt="Мобильные приложения"
+                width="380"
+              />
+            </li>
 
-          <li>
-            <h3 class="works">Дизайнерские решения</h3>
-            <img
-              src="./images/дизайнерские.jpg"
-              alt="Дизайнерские решения"
-              width="380"
-            />
-          </li>
-        </ul>
+            <li>
+              <h3 class="works">Дизайнерские решения</h3>
+              <img
+                src="./images/дизайнерские.jpg"
+                alt="Дизайнерские решения"
+                width="380"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Наша команда-->
       <section class="section comand">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/John.jpg" alt="фото Johna" width="280" />
-            <h3 class="name">John Smith</h3>
-            <p class="position">Product Designer</p>
-            <ul class="list">
-              <li><a href="" aria-label="Facebook Link"></a></li>
-              <li><a href="" aria-label="Instagram Link"></a></li>
-              <li><a href="" aria-label="Twitter Link"></a></li>
-              <li><a href="" aria-label="Linkedin Link"></a></li>
-            </ul>
-          </li>
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list">
+            <li>
+              <img src="./images/John.jpg" alt="фото Johna" width="280" />
+              <h3 class="name">John Smith</h3>
+              <p class="position">Product Designer</p>
+              <ul class="list">
+                <li><a href="" aria-label="Facebook Link"></a></li>
+                <li><a href="" aria-label="Instagram Link"></a></li>
+                <li><a href="" aria-label="Twitter Link"></a></li>
+                <li><a href="" aria-label="Linkedin Link"></a></li>
+              </ul>
+            </li>
 
-          <li>
-            <img src="./images/Marta.jpg" alt="фото Marta" width="280" />
-            <h3 class="name">Marta Stewart</h3>
-            <p class="position">Frontend Developer</p>
-            <ul class="list">
-              <li><a href="" aria-label="Facebook Link"></a></li>
-              <li><a href="" aria-label="Instagram Link"></a></li>
-              <li><a href="" aria-label="Twitter Link"></a></li>
-              <li><a href="" aria-label="Linkedin Link"></a></li>
-            </ul>
-          </li>
+            <li>
+              <img src="./images/Marta.jpg" alt="фото Marta" width="280" />
+              <h3 class="name">Marta Stewart</h3>
+              <p class="position">Frontend Developer</p>
+              <ul class="list">
+                <li><a href="" aria-label="Facebook Link"></a></li>
+                <li><a href="" aria-label="Instagram Link"></a></li>
+                <li><a href="" aria-label="Twitter Link"></a></li>
+                <li><a href="" aria-label="Linkedin Link"></a></li>
+              </ul>
+            </li>
 
-          <li>
-            <img src="./images/Robert.jpg" alt="фото Robert" width="280" />
-            <h3 class="name">Robert Jakis</h3>
-            <p class="position">Marketing</p>
-            <ul class="list">
-              <li><a href="" aria-label="Facebook Link"></a></li>
-              <li><a href="" aria-label="Instagram Link"></a></li>
-              <li><a href="" aria-label="Twitter Link"></a></li>
-              <li><a href="" aria-label="Linkedin Link"></a></li>
-            </ul>
-          </li>
+            <li>
+              <img src="./images/Robert.jpg" alt="фото Robert" width="280" />
+              <h3 class="name">Robert Jakis</h3>
+              <p class="position">Marketing</p>
+              <ul class="list">
+                <li><a href="" aria-label="Facebook Link"></a></li>
+                <li><a href="" aria-label="Instagram Link"></a></li>
+                <li><a href="" aria-label="Twitter Link"></a></li>
+                <li><a href="" aria-label="Linkedin Link"></a></li>
+              </ul>
+            </li>
 
-          <li>
-            <img src="./images/Martin.jpg" alt="фото Martin" width="280" />
-            <h3 class="name">Martin Doe</h3>
-            <p class="position">UI Designer</p>
-            <ul class="list">
-              <li><a href="" aria-label="Facebook Link"></a></li>
-              <li><a href="" aria-label="Instagram Link"></a></li>
-              <li><a href="" aria-label="Twitter Link"></a></li>
-              <li><a href="" aria-label="Linkedin Link"></a></li>
-            </ul>
-          </li>
-        </ul>
+            <li>
+              <img src="./images/Martin.jpg" alt="фото Martin" width="280" />
+              <h3 class="name">Martin Doe</h3>
+              <p class="position">UI Designer</p>
+              <ul class="list">
+                <li><a href="" aria-label="Facebook Link"></a></li>
+                <li><a href="" aria-label="Instagram Link"></a></li>
+                <li><a href="" aria-label="Twitter Link"></a></li>
+                <li><a href="" aria-label="Linkedin Link"></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Постоянные клиенты-->
       <section class="section clients">
-        <h2 class="section-title">Постоянные клиенты</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/logo1.svg" alt="" />
-          </li>
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="list">
+            <li>
+              <img src="./images/logo1.svg" alt="" />
+            </li>
 
-          <li>
-            <img src="./images/logo2.svg" alt="" />
-          </li>
-          <li>
-            <img src="./images/logo3.svg" alt="" />
-          </li>
-          <li>
-            <img src="./images/logo4.svg" alt="" />
-          </li>
-          <li>
-            <img src="./images/logo5.svg" alt="" />
-          </li>
-          <li>
-            <img src="./images/logo6.svg" alt="" />
-          </li>
-        </ul>
+            <li>
+              <img src="./images/logo2.svg" alt="" />
+            </li>
+            <li>
+              <img src="./images/logo3.svg" alt="" />
+            </li>
+            <li>
+              <img src="./images/logo4.svg" alt="" />
+            </li>
+            <li>
+              <img src="./images/logo5.svg" alt="" />
+            </li>
+            <li>
+              <img src="./images/logo6.svg" alt="" />
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--foter-->
@@ -249,7 +261,7 @@
         </form>
       </div>
 
-      <div>
+      <div class="developed">
         2020 | Developed by GoIT Students
       </div>
     </footer>

@@ -80,6 +80,13 @@ body {
     color: var(--title-text-color);
 }
   */
+.nav {
+  display: flex;
+  align-items: center;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .list {
   list-style: none;
@@ -116,13 +123,32 @@ body {
 .list-nav .link:hover {
   color: var(--accent-color);
 }
-/* 
-.list-nav .link:focus{
-  color: var(--accent-color);
-} */
+
+.list-nav {
+  display: flex;
+  margin-left: 86px;
+}
+
+.list-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.list-nav .item + .item {
+  margin-left: 52px;
+}
 
 .list-nav .link.current {
   color: var(--accent-color);
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav .item + .item {
+  margin-left: 30px;
 }
 
 /* Герой */
@@ -192,6 +218,9 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section .section-title {
@@ -219,6 +248,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.14;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
 }
 
 .main .buton {
@@ -285,8 +316,19 @@ footer {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
+.developed {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-/* PORTFOLIO.HTML */
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* PORTFOLIO.HTML  */
+/* PORTFOLIO.HTML  */
+/* PORTFOLIO.HTML  */
 
 .projects .one {
   font-family: Roboto;
