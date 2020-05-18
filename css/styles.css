@@ -294,7 +294,7 @@ body {
   padding-bottom: 94px;
 }
 .fot {
-  width: 170px;
+  width: 175px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -356,13 +356,24 @@ footer {
 
   color: rgba(255, 255, 255, 0.4);
 }
+.address {
+  /* margin-right: auto; */
+}
 
 /* footer */
 /* footer */
 .footer {
   align-items: baseline;
   display: flex;
-  width: 1600px;
+  width: 1200px;
+}
+
+.join {
+  margin-left: 69px;
+  margin-right: 93px;
+}
+.subscription {
+  /* margin-left: auto; */
 }
 
 /* PORTFOLIO.HTML  */
