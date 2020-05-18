@@ -35,7 +35,11 @@ body {
 .list {
   list-style: none;
 }
-
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* nav */
 
 /* кнопка */
@@ -92,6 +96,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
 /* Site nav */
@@ -187,7 +192,7 @@ body {
   padding-bottom: 94px;
 }
 
-.feature-list .title {
+.feature-list .feature-list .title {
   margin-top: 30px;
   margin-bottom: 0;
 
@@ -209,6 +214,25 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.feature-list {
+  display: flex;
+  align-items: baseline;
+}
+.feature-list .item + .item {
+  margin-left: 30px;
+}
+.feature-list .item {
+  text-align: center;
+  width: 278px;
+}
+
+.feature-list .title {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.list .foto + .foto {
+  margin-left: 30px;
+}
 
 .section .works {
   margin-top: 0;
@@ -218,7 +242,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -238,17 +262,18 @@ body {
 .position {
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .section .name {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.14;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -267,6 +292,12 @@ body {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.fot {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* footer */
@@ -324,6 +355,14 @@ footer {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* footer */
+/* footer */
+.footer {
+  align-items: baseline;
+  display: flex;
+  width: 1600px;
 }
 
 /* PORTFOLIO.HTML  */
