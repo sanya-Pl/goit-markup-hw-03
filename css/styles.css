@@ -39,6 +39,8 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* nav */
 
@@ -394,14 +396,43 @@ footer {
   color: #ffffff;
 }
 /* сайт */
+
+.flex-container .list-nav {
+  display: block;
+}
+
+.flex-container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: teal;
+}
+.flex-element:nth-child(3n) {
+  margin-right: 0;
+}
+
+.flex-element {
+  width: 378px;
+  background-color: tomato;
+  margin-right: 30px;
+}
+
 .list .title-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.8;
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .list .text.list {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
@@ -409,6 +440,8 @@ footer {
 }
 .list .list-nav {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 .list .list.one {
   font-size: 18px;

@@ -1,171 +1,180 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@400;500;700;900&display=swap&subset=cyrillic" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@400;500;700;900&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <!-- Шапка сайта -->
     <header>
-             <h1>Портфолио : нашы проекты</h1>
-        <nav>
-                <a href="" class="logo" rel="">Web<span class="logo-web"> Studio</span> </a>
-            <ul class="list-nav list">
-                <li><a href="./index.html" class="link" rel="">Студия</a></li>
-                <li><a href=""  class="link current" rel="">Портфолио</a></li>
-                <li><a href="" class="link" rel="">Контакты</a></li>
-            </ul>
+      <!-- <h1>Портфолио : нашы проекты</h1> -->
+      <nav class="nav container">
+        <a href="" class="logo" rel=""
+          >Web<span class="logo-web"> Studio</span>
+        </a>
+        <ul class="list-nav list">
+          <li class="item">
+            <a href="./index.html" class="link" rel="">Студия</a>
+          </li>
+          <li class="item">
+            <a href="" class="link current" rel="">Портфолио</a>
+          </li>
+          <li class="item"><a href="" class="link" rel="">Контакты</a></li>
+        </ul>
 
-       
-            <ul class="auth-nav list">
-            
-                <li>
-                    <a href="/"  class="link" rel="">
-                    <img src="./images/почта.svg" alt="Почта" />
-                        info@devstudio.com 
-                    </a>
-                </li>
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="/" class="link" rel="">
+              <img src="./images/почта.svg" alt="Почта" />
+              info@devstudio.com
+            </a>
+          </li>
 
-                <li>
-                    <img src="./images/telefon.svg" alt="">
-                    <a href="tel:+380951138598"  class="telefon" >+38 095 113 85 98</a>
-                </li>
-            </ul>
-        </nav>
+          <li class="item">
+            <img src="./images/telefon.svg" alt="" />
+            <a href="tel:+380951138598" class="telefon">+38 095 113 85 98</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-        <!--Герой-->
-        <h1>Страница портфолио </h1>
-        <main>
-            <ul class="projects list">
-            <li class=""><button type="button" class="one important">Все</button></li>
-            <li class=""><button type="button" class="one">Веб-сайты</button></li>
-            <li class=""><button type="button" class="one">Приложения</button></li>
-            <li class=""><button type="button" class="one">Дизайн</button></li>
-            <li class=""><button type="button" class="one">Маркетинг</button></li>
-            
-            </ul>
-        
-    
-        <!--Сайт-->
-        
-            <ul class="list">
-            <li >
-                <a href="" class="list-nav">
-                    <img src="./foto/Технокряк.jpg" alt="">
-                    <p class="list one"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
-                    </p>
-                    <h2 class="title-name">Технокряк</h2>
-                    <p class="text list">Веб-сайт</p>
-                </a>
-            </li>
+    <!--Герой-->
+    <!-- <h1>Страница портфолио </h1> -->
+    <main>
+      <ul class="projects list">
+        <li class="">
+          <button type="button" class="one important">Все</button>
+        </li>
+        <li class=""><button type="button" class="one">Веб-сайты</button></li>
+        <li class=""><button type="button" class="one">Приложения</button></li>
+        <li class=""><button type="button" class="one">Дизайн</button></li>
+        <li class=""><button type="button" class="one">Маркетинг</button></li>
+      </ul>
 
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/баскетбол.jpg"  alt="" width="380">
-                    <h2 class="title-name">Постер New Orlean vs Golden Stars </h2>
-                    <p class="text list">Дизайн</p>
-                    
-                </a>
-            </li>
+      <!--Сайт-->
 
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/ресторан.jpg"  width="380" alt="">
-                    <h2 class="title-name">Ресторан Seafood</h2>
-                    <p class="text list">Приложение</p>
-                    
-                </a>
-            </li>
+      <div class="jk">
+        <ul class="list flex-container">
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/texno.jpg" alt="" />
+              <h2 class="title-name">Технокряк</h2>
+              <p class="text list">Веб-сайт</p>
+            </a>
+          </li>
 
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/наушники.jpg" width="380" alt="">
-                    <h2 class="title-name">Проект Prime</h2>
-                    <p class="text list">Маркетинг</p>
-                    
-                </a>
-            </li>
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/баскетбол.jpg" alt="" width="380" />
+              <h2 class="title-name">Постер New Orlean vs Golden Stars</h2>
+              <p class="text list">Дизайн</p>
+            </a>
+          </li>
 
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/Boxes.jpg" width="380" alt="">
-                    <h2 class="title-name">Проект Boxes</h2>
-                    <p class="text list">Приложение</p>
-                    
-                </a>
-            </li>
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/ресторан.jpg" width="380" alt="" />
+              <h2 class="title-name">Ресторан Seafood</h2>
+              <p class="text list">Приложение</p>
+            </a>
+          </li>
 
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/монитор.jpg" width="380" alt="">
-                    <h2 class="title-name"> Inspiration has no Borders</h2>
-                    <p class="text list">Веб-сайт</p>
-                    
-                </a>
-            </li>
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/наушники.jpg" width="380" alt="" />
+              <h2 class="title-name">Проект Prime</h2>
+              <p class="text list">Маркетинг</p>
+            </a>
+          </li>
 
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/журнал.jpg" width="380" alt="">
-                    <h2 class="title-name">Издание Limited Edition </h2>
-                    <p class="text list">Дизайн</p>
-                    
-                </a>
-            </li>
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/ярлык.jpg" width="380" alt="">
-                    <h2 class="title-name">Проект LAB</h2>
-                    <p class="text list">Маркетинг</p>
-                    
-                </a>
-            </li>
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/Boxes.jpg" width="380" alt="" />
+              <h2 class="title-name">Проект Boxes</h2>
+              <p class="text list">Приложение</p>
+            </a>
+          </li>
 
-            <li>
-                <a href="" class="list-nav">
-                    <img src="./foto/ноут.jpg" width="380" alt="">
-                    <h2 class="title-name">Growing Business</h2>
-                    <p>Приложение</p>
-                    
-                </a>
-            </li>
-           </ul>
-        </main> 
-        
-          <!-- Футер -->
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/монитор.jpg" width="380" alt="" />
+              <h2 class="title-name">Inspiration has no Borders</h2>
+              <p class="text list">Веб-сайт</p>
+            </a>
+          </li>
 
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/журнал.jpg" width="380" alt="" />
+              <h2 class="title-name">Издание Limited Edition</h2>
+              <p class="text list">Дизайн</p>
+            </a>
+          </li>
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/ярлык.jpg" width="380" alt="" />
+              <h2 class="title-name">Проект LAB</h2>
+              <p class="text list">Маркетинг</p>
+            </a>
+          </li>
+
+          <li class="flex-element">
+            <a href="" class="list-nav">
+              <img src="./foto/ноут.jpg" width="380" alt="" />
+              <h2 class="title-name">Growing Business</h2>
+              <p>Приложение</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- Футер -->
     <footer class="page-footer">
-        <address>
-            <a href="./index.html" class="logo"></a>
-            <a href="" class="logo" rel="">Web<span class="logo-web"> Studio</span> </a>
-            <p>г. Киев, пр-т Леси Украинки, 26 </p>
-            <a href="tel:+380971234567"> +380971234567 </a><br />
-            <a href="">info@example.com </a>
-    
+      <div class="footer">
+        <address class="address">
+          <a href="./index.html" class="logo"></a>
+          <a href="" class="logo" rel=""
+            >Web<span class="logo-web"> Studio</span>
+          </a>
+          <p class="address-paragraph">г. Киев, пр-т Леси Украинки, 26</p>
+          <a href="tel:+380971234567" class="address-telefon"> +380971234567 </a
+          ><br />
+          <a href="" class="address-mail">info@example.com </a>
         </address>
-        <div>
-            <p>присоединяйтесь</p>
-    
-    
-            <a href="https://www.instagram.com/?hl=ru" target="blank"><img src="./images/instagram.svg" alt=""></a>
-            <a href="https://twitter.com/explore" target="blank"><img src="./images/tviter.svg" alt=""></a>
-            <a href="https://www.facebook.com/" target="blank"><img src="./images/facebook.svg" alt=""></a>
-            <a href="https://www.linkedin.com/" target="blank"><img src="./images/linkedin.svg" alt=""></a>
-            <div>
-                <p>подписаться на рассылку</p>
-                <form class="form">
-                    <input type="email" name="email" placeholder="Email">
-                    <button class="buton">подписаться</button>
-                </form>
-    
-            </div>
-            <div>
-                2020 | Developed by GoIT Students
-            </div>
+        <div class="join">
+          <p class="join-paragraph">присоединяйтесь</p>
+
+          <a href="https://www.instagram.com/?hl=ru" target="blank"
+            ><img src="./images/instagram.svg" alt=""
+          /></a>
+          <a href="https://twitter.com/explore" target="blank"
+            ><img src="./images/tviter.svg" alt=""
+          /></a>
+          <a href="https://www.facebook.com/" target="blank"
+            ><img src="./images/facebook.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/" target="blank"
+            ><img src="./images/linkedin.svg" alt=""
+          /></a>
+        </div>
+        <div class="subscription">
+          <p class="subscription-name">подписаться на рассылку</p>
+          <form class="form">
+            <input type="email" name="email" placeholder="Email" />
+            <button class="buton">подписаться</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="developed">
+        2020 | Developed by GoIT Students
+      </div>
     </footer>
-</body>
+  </body>
 </html>
