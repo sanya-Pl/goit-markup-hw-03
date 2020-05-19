@@ -32,6 +32,11 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -440,7 +445,6 @@ footer {
   margin-left: auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: teal;
 }
 .flex-element:nth-child(3n) {
   margin-right: 0;
@@ -448,7 +452,6 @@ footer {
 
 .flex-element {
   width: 380px;
-  background-color: tomato;
   margin-right: 30px;
 }
 
@@ -478,6 +481,14 @@ footer {
   font-size: 18px;
   line-height: 1.6;
   color: #ffffff;
+}
+
+.border {
+  box-sizing: border-box;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 /* 
