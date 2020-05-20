@@ -217,7 +217,9 @@ body {
 .applications {
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 1px solid #ececec;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ececec;
 }
 .feature-list {
   display: flex;
@@ -318,6 +320,11 @@ footer {
   color: var(--primary-white-color);
   margin-top: 10px;
   margin-bottom: 9px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7px;
 }
 .address-mail {
   margin-top: 9px;
@@ -353,6 +360,9 @@ footer {
   color: var(--primary-white-color);
 }
 .developed {
+  padding-top: 18px;
+  padding-bottom: 21px;
+
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -363,16 +373,22 @@ footer {
 }
 .address {
   /* margin-right: auto; */
+  margin-bottom: 22px;
 }
 
 /* footer */
 /* footer */
 .footer {
+  justify-content: space-between;
   align-items: baseline;
   display: flex;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
 .join {
