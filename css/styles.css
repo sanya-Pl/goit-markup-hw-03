@@ -278,8 +278,20 @@ body {
 }
 .position {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 84px;
   text-align: center;
+}
+
+.list .foto {
+  /* box-sizing: border-box;
+  border: 1px solid #eeeeee;
+  background: url(team-img-2.jpg);
+  border-radius: 4px 4px 0px 0px; */
+
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .section .name {
@@ -416,6 +428,10 @@ footer {
 .mein {
   margin-left: auto;
   margin-right: auto;
+}
+
+.projects .one:hover {
+  color: yellow;
 }
 
 .projects .one {
