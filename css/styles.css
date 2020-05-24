@@ -116,13 +116,19 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
+  color: var(--primary-text-color);
+}
+.auth-nav.list .link:focus,
+.auth-nav.list .link:hover {
   color: var(--accent-color);
 }
+
 .auth-nav .telefon {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   color: #757575;
+  text-decoration: none;
 }
 
 .list .link {
