@@ -308,7 +308,7 @@ body {
   box-sizing: border-box;
   border: 1px solid #eeeeee;
   background: url(team-img-2.jpg);
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 4px 4px 4px 4px;
   background: #ffffff;
   border-radius: 4px;
 }
