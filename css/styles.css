@@ -240,9 +240,6 @@ body {
 .list .foto + .foto {
   margin-left: 30px;
 }
-.list .fotos + .fotos {
-  margin-left: 30px;
-}
 
 .list .container-list {
   background: rgba(47, 48, 58, 0.8);
@@ -286,16 +283,15 @@ body {
 }
 
 .list .foto {
-  /* box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #eeeeee;
   background: url(team-img-2.jpg);
-  border-radius: 4px 4px 0px 0px; */
-    width: 170px;
-    height: 90px;
+  border-radius: 4px 4px 0px 0px;
   background: #ffffff;
-  /* box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), */
-    0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.section-foto {
+  border-radius: 4px 4px 0px 0px;
 }
 
 .section .name {
@@ -439,7 +435,7 @@ footer {
 }
 
 .projects .one:hover {
-  color: yellow;
+  color: var(--primary-white-color);
 }
 
 .projects .one {
@@ -528,9 +524,12 @@ footer {
   margin-top: 0;
   margin-bottom: 4px;
   margin-top: 20px;
+  margin-top: 20px;
+  margin-left: 24px;
 }
 
 .list .text.list {
+  margin-left: 24px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
