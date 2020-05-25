@@ -375,7 +375,13 @@ footer {
   line-height: 1.7px;
 }
 .address-mail {
+  text-decoration: none;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7px;
 }
 .join {
   display: inline-block;
@@ -390,6 +396,18 @@ footer {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.social-networks {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-around;
+  margin: 0 0;
+}
+
+.social-networks .networks + .networks {
+  margin-left: 10px;
 }
 /* 
 .subscription {
@@ -427,6 +445,7 @@ footer {
 /* footer */
 /* footer */
 .footer {
+  padding-top: 48px;
   justify-content: space-between;
   align-items: baseline;
   display: flex;
@@ -439,12 +458,22 @@ footer {
   border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
+.address .address-telefon {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .list {
+  display: block;
+}
+
 .join {
   margin-left: 69px;
   margin-right: 93px;
-}
-.subscription {
-  /* margin-left: auto; */
 }
 
 /* PORTFOLIO.HTML  */
