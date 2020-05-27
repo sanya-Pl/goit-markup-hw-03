@@ -185,6 +185,18 @@ body {
   padding: 0;
   text-align: center;
 }
+.overlay{
+  max-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), rgba(47, 48, 58, 0.8);
+  background-image: url("../images/heroy.jpg");
+  background-size: cover;
+  background-color: black;
+  
+
+} 
 
 /* section */
 .section .section-title {
